@@ -15,12 +15,16 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+.main-section-container {
+  margin-left: 20px;
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 10px) {
   .sidenav-container {
     border-bottom: 1px solid black;
     border-radius: 0;
     padding-bottom: 32px;
+    margin-left: 30px;
   }
 
   .portfolio-container {
@@ -44,21 +48,4 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-@media only screen and (min-width: 600px) {
-  .sidenav-container {
-    border-right: 1px solid black;
-  }
-}
-
-.main-section-container {
-  display: flex;
-  width: 260px;
-  flex-grow: 50;
-  margin: 10px;
-  height: 455px;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 1px 10px 10px 1px;
 }
